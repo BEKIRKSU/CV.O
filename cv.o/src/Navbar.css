@@ -1,0 +1,100 @@
+nav {
+    /* Nav can be blue or white. Maybe grey. */
+    background-color: #002147;  
+    /* background-color: #13274F; */
+    /* background-color: #0a2351; */
+    /* background-color: #002244; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+    height: 130px;
+    margin: 0; 
+    border: none; 
+    padding: 0 20px;
+}
+
+.name-area {
+    display: flex;
+    align-items: center;
+    flex: 1; 
+}
+
+.name-surname {
+    color: white;
+    text-align: center;
+    margin: 0 auto; 
+    font-family: Source Sans Pro,sans-serif;
+}
+
+img {
+    width: 100px; 
+    height: auto; 
+}
+
+
+.sign-out {
+    padding: 5px 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #eeeeee;
+    color: rgb(44, 26, 117);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    margin-right: 35px;
+    transition: background-color 0.3s ease;
+}
+
+.sign-out:hover {
+    background-color: #c42f2f; 
+   /* E32636 */
+    color: white; 
+}
+/* nav {
+    background-color: #0d0c41;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 100px;
+    margin-bottom: 4px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #eeeeee;
+    padding: 0 20px;
+}
+
+.name-area {
+    background-color: #0d0c41;
+    display: flex;
+    align-items: center;
+    flex: 1; 
+}
+
+.name-surname {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.logo {
+    color: #fff;
+}
+
+.sign-out {
+	padding: 5px 10px;
+    font-family: 'Signika', sans-serif;
+	font-size: 15px;
+    font-weight: bold;
+	background-color: #eeeeee;
+	color: rgb(44, 26, 117);
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+    width: 70px;
+    height: 40px;
+} */
