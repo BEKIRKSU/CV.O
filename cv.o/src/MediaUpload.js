@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Media-upload.css';
+import './MediaUpload.css';
 
 const MediaUpload = () => {
   const [isExpanded, setIsExpanded] = useState(false);
